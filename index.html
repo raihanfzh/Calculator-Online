@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculatorku</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-indigo-800 transition-all duration-500">
+
+  <div class="bg-gray-900 text-white p-6 rounded-3xl shadow-2xl w-[90%] max-w-sm mx-auto">
+    <div class="flex justify-between items-center mb-4">
+      <h1 class="text-2xl font-bold">Calculator Online</h1>
+      <button id="themeToggle" class="text-yellow-400 hover:text-yellow-300 transition text-2xl">🌙</button>
+    </div>
+
+    <div id="display" class="bg-gray-800 text-right text-3xl p-4 rounded-lg mb-4 h-20 overflow-x-auto break-words">0</div>
+
+    <div class="grid grid-cols-4 gap-3">
+      <button class="btn">7</button>
+      <button class="btn">8</button>
+      <button class="btn">9</button>
+      <button class="btn operator">/</button>
+
+      <button class="btn">4</button>
+      <button class="btn">5</button>
+      <button class="btn">6</button>
+      <button class="btn operator">*</button>
+
+      <button class="btn">1</button>
+      <button class="btn">2</button>
+      <button class="btn">3</button>
+      <button class="btn operator">-</button>
+
+      <button class="btn">0</button>
+      <button class="btn">.</button>
+      <button class="btn" id="delete">⌫</button>
+      <button class="btn operator">+</button>
+
+      <button class="btn col-span-2 bg-red-600 hover:bg-red-700" id="clear">C</button>
+      <button class="btn col-span-2 bg-green-500 hover:bg-green-600" id="equals">=</button>
+    </div>
+  </div>
+
+  <footer class="text-white mt-8 text-center text-sm opacity-70">
+    <!-- by Raihan Hafizh Nugraha -->
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
