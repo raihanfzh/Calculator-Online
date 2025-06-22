@@ -32,4 +32,4 @@ A simple and modern web-based calculator built with **vanilla JavaScript** and s
 
 1. **Clone this repository** (or download manually)
    ```bash
-   git clone https://github.com/username/calculator-app.git
+   git clone https://github.com/raihanfzh/calculator-app.git
